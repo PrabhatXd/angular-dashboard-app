@@ -1,1 +1,38 @@
-
+<div class="widget-container">
+  <div class="widget green">
+    <div class="icon">
+      <fa-icon [icon]="faUser"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{ totalIds }}</div>
+      <div class="bottom">Total Users</div>
+    </div>
+  </div>
+  <div class="widget yellow">
+    <div class="icon">
+      <fa-icon [icon]="faUsers"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{uniqueUsersId}}</div>
+      <div class="bottom">User Ids</div>
+    </div>
+  </div>
+  <div class="widget red">
+    <div class="icon">
+      <fa-icon [icon]="faCheck"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{completedTrueCount }}</div>
+      <div class="bottom">Completed</div>
+    </div>
+  </div>
+  <div class="widget blue">
+    <div class="icon">
+      <fa-icon [icon]="faCircleXmark"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{ completedFalseCount }}</div>
+      <div class="bottom">Pending</div>
+    </div>
+  </div>
+</div>
