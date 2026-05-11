@@ -1,0 +1,70 @@
+
+.side-nav {
+
+  width: 280px;
+  min-width: 280px;
+flex-shrink: 0;
+  background-color: #022c47;
+  color: white;
+}
+
+
+.help-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.help-content {
+  flex: 1;
+  padding: 50px 70px;
+  background-color: #f4f7fb;
+  overflow-y: auto;
+}
+
+/* ✅ HEADINGS */
+.help-content h1 {
+  margin-bottom: 10px;
+}
+
+.intro {
+  color: #666;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+/* ✅ FAQ ACCORDION */
+.faq {
+  max-width: 800px;
+}
+
+/* ✅ DETAILS / SUMMARY (ACCORDION STYLE) */
+details {
+  background: #ffffff;
+  border-left: 4px solid #3bd671;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+summary::marker {
+  display: none;
+}
+
+/* ✅ FAQ CONTENT */
+details p {
+  margin-top: 10px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* ✅ KEYWORD HIGHLIGHT */
+.highlight {
+  color: #3bd671;
+  font-weight: 600;
+}
