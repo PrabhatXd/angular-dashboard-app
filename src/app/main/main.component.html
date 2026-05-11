@@ -1,1 +1,28 @@
+<div class="">
+  <div class="top-section">
+  <app-top-widgets
+  [totalIds]="totalIds"
+  [uniqueUsersId]="uniqueUsersId"
+  [completedTrueCount]="completedTrueCount"
+  [completedFalseCount]="completedFalseCount">
 
+  ></app-top-widgets>
+</div>
+<div class="middle-section">
+  <div class="widget left">
+    <app-sale-by-month></app-sale-by-month>
+  </div>
+  <div class="widget right">
+    <app-sale-by-category></app-sale-by-category>
+  </div>
+</div>
+<div class="bottom-section">
+  <div class="widget left">
+    <app-last-transaction-comp></app-last-transaction-comp>
+  </div>
+  <div class="widget right">
+    <app-top-three-products></app-top-three-products>
+  </div>
+</div>
+
+</div>
